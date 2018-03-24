@@ -1,0 +1,28 @@
+[StateName]
+0 = Fill
+1 = Heat Strike
+2 = Strike
+3 = Refill
+4 = Reheat
+5 = Mash
+6 = Mash Out
+7 = Sparge
+8 = Boil
+9 = Whirlpool
+10 = Chill (fill clean)
+11 = Chill (drain)
+
+[StateTable]
+0 = 72
+1 = 8
+2 = 16388
+3 = 72
+4 = 8200
+5 = 8196
+6 = 8196
+7 = 24584
+8 = 3
+9 = 4099
+10 = 4163
+11 = 6147
+

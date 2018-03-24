@@ -61,7 +61,7 @@ def getTempsensor(temp_pin, TEMP_PINS):
 
    #while time.time() < stop:
    #for b in TEMP_PINS:
-   time.sleep(.5)
+   time.sleep(.02)
    pi.write(temp_pin, 0)
    #time.sleep(2)
    #sensor = pi.spi_open(0, 1000000, 0)
@@ -77,9 +77,9 @@ def getTempsensor(temp_pin, TEMP_PINS):
          sensor = None
          pi.write(temp_pin, 1)
          pi.stop()
-         print (pi.connected)
+         #print (pi.connected)
          pi = None
-         print (tf)
+         #print (tf)
          return tf
       else:
          pi.spi_close(sensor)
